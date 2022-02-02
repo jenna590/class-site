@@ -112,16 +112,20 @@ h1 {
     text-align: center;
     margin-top: 40px;
     padding: 30px;
-    color: white;
+    color: pink;
 
 }
 ul {
   text-align: center;
 }
 ul li {
-  color: white;
   text-align: center;
   list-style-type: none;
+  padding: 10px;
+}
+ul li a{
+  color: #adedbe;
+
 }
 h2{
     font-family: fort-condensed, sans-serif;
@@ -136,4 +140,5 @@ h2{
    font-weight: 400;
     padding-left: 50px;
     padding-right: 50px;
+    color: pink;
  }

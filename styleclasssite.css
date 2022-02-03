@@ -142,3 +142,7 @@ h2{
     padding-right: 50px;
     color: pink;
  }
+ p{
+   color: white;
+   padding: 5px 100px 30px 50px;
+ }

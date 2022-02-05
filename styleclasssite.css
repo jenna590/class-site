@@ -25,11 +25,13 @@ time, mark, audio, video {
     outline:0;
     font-size:100%;
     vertical-align:baseline;
-    background: black ;
+
 }
 
 body {
     line-height:;
+    padding: 30px;
+
 	}
 
 
@@ -119,13 +121,19 @@ ul {
   text-align: center;
 }
 ul li {
+  display: inline-block;
   text-align: center;
   list-style-type: none;
-  padding: 10px;
+  font-family: 'Tulpen One', cursive;
+  font-size: 100px;
+  color: #adedbe;
 }
 ul li a{
   color: #adedbe;
+}
 
+a:hover{
+  color: black;
 }
 h2{
     font-family: fort-condensed, sans-serif;
@@ -143,6 +151,11 @@ h2{
     color: pink;
  }
  p{
-   color: white;
+   color: grey;
    padding: 5px 100px 30px 50px;
+ }
+ .response{
+   border: 10px dotted lightgrey;
+   padding: 20px;
+
  }

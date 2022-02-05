@@ -1,0 +1,21 @@
+
+
+* {
+  box-sizing: border-box;
+}
+body{
+  font-family: shiva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 200px;
+}
+
+p{
+  color: lavender;
+  background-color: darkgreen;
+  border: 10px solid pink;
+  margin: 30px;
+  padding: 20px;
+  height: 300px;
+  max-width: 300px;
+}

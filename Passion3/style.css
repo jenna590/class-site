@@ -1,23 +1,38 @@
 body{
-  background-color: HoneyDew;
-  border: solid black 5px;
+  background-color: rgb(240, 252, 255);
+  padding: 100px;
 }
 a {
   font-family: sans-serif;
   font-weight: 300;
   font-size: 20px;
+  color: green;
 }
-td {
-  border: solid black 1px;
-  padding: 0 30px 0 30px;
+
+.contents{
+  border-radius: 40px;
+  text-align: center;
+  border: 2px solid #73AD21;
 }
 
 h1{
-    font-family: Helvetica;
-    font-weight: 300;
-    font-size: 40px;
-    text-align:center;
-    color: YellowGreen;
+  font-family: new-order, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: YellowGreen;
+  text-align: center;
+  padding: 25px;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+
+}
+th{
+  font-family: new-order, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: YellowGreen;
 }
 
 h2{
@@ -25,20 +40,77 @@ h2{
     font-weight: 300;
     font-size: 20px;
     text-align: center;
+    color: YellowGreen;
+    padding: 0 100px 0 100px;
+}
+h3{
+  font-family: new-order, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  color: YellowGreen;
 }
 p{
   font-family: sans-serif;
   font-weight: 300;
   font-size: 20px;
   text-align: center;
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 10px;
+  color: rgb(0, 60, 131);
 }
 ul li{
   font-family: sans-serif;
   font-weight: 300;
   font-size: 20px;
-  list-style-type: square;
+  list-style-type: none;
+  text-align: center;
+  color: YellowGreen;
 }
-img{
-  width: 400px;
-  padding-bottom: 20px;
+
+.info{
+  position: ;
+}
+.knob{
+  position: absolute;
+  background: darkred;
+  width: 30px;
+  height: 30px;
+  bottom: 120px;
+  left: 10px;
+  border-radius: 50%
+}
+.door{
+  background: lightpink;
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  bottom: 0px;
+  left: 160px;
+  border-radius: 10px;
+  position: absolute;
+}
+.door:hover{
+  opacity: .25;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid darkgreen;
+
+}
+.drawing{
+  margin: 0 auto;
+  background: green;
+
+}
+.wall{
+  height: 500px;
+  width: 550px;
+  margin: 0 auto;
+  background: rgb(83, 20, 44);
+  position: relative;
 }

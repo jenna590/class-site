@@ -1,14 +1,18 @@
+body{
+  margin: 20px;
+}
 
 
 h1 {
-    font-family: 'Tulpen One', cursive;
-    font-weight: 300;
+  font-family: shiva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
     font-size: 120px;
     line-height: 0;
     text-align: center;
     margin-top: 40px;
     padding: 30px;
-    color: #191970;
+    color: rgb(20, 0, 255);
 
 }
 ul {
@@ -17,19 +21,21 @@ ul {
 ul li {
   display: inline-block;
   list-style-type: none;
-  font-family: 'Tulpen One', cursive;
-  font-size: 100px;
-  color: #adedbe;
+  font-family: shiva, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: rgb(20, 0, 255);
 }
 a{
   text-decoration: none;
 }
 ul li a{
-  color: #adedbe;
+  color: rgb(20, 0, 255);
 }
 
 a:hover{
-  color: #191970;
+  color: rgb(218, 252, 81);
 }
 h2{
     font-family: fort-condensed, sans-serif;

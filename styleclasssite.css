@@ -7,13 +7,11 @@ h1 {
   font-family: shiva, sans-serif;
   font-weight: 400;
   font-style: normal;
-    font-size: 120px;
-    line-height: 0;
-    text-align: center;
-    margin-top: 40px;
-    padding: 30px;
-    color: rgb(20, 0, 255);
-
+  font-size: 120px;
+  line-height: 120px;
+  text-align: center;
+  padding-left: 20px;
+  color: rgb(20, 0, 255);
 }
 ul {
   text-align: center;
@@ -29,6 +27,7 @@ ul li {
 }
 a{
   text-decoration: none;
+
 }
 ul li a{
   color: rgb(20, 0, 255);

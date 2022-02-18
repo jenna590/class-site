@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+body{
+ margin: 0;
+
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+
+}
+.top-row{
+  background-color: black;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.bottom-row{
+  background-color: blue;
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.top-left{
+  background-image: linear-gradient(to bottom left, red, yellow, red);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-grow: 4;
+
+}
+.top-right{
+  background-image: linear-gradient(to bottom right, red, pink, red);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 4;
+}
+.bottom-right{
+  background-image: linear-gradient(to bottom left, red, yellow, red);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-grow: 4;
+}
+.bottom-left{
+  background-image: linear-gradient(to bottom right, red, pink, red);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  flex-grow: 4;
+}
+.tri-top-left{
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-right: 100px solid transparent;
+  margin: 0;
+}
+.tri-top-right{
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+}
+.tri-bottom-left{
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+}
+.tri-bottom-right{
+  width: 0;
+  height: 0;
+  border-bottom: 100px solid red;
+  border-left: 100px solid transparent;
+}

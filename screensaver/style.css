@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+ background-color: white;
+}
+
+.object{
+  background-color:black;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  z-index: 1;
+  transition:
+    background-color .5s,
+    transform .5s ;
+    border-radius: .5s;
+  cursor: help;
+  
+}
+/* .special{
+  color: red;
+} */
+/* p{
+  font-size: 30px;
+}
+img{
+  max-width: 200px;
+} */
+/* .hidden{
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+  opacity: 0;
+} */
+/* .special:hover + .hidden {
+  opacity: 1;
+} */
+.object:hover{
+  background-color:rgb(205, 205, 205);
+  transform: scale(2);
+  border-radius: 0;
+}
+
+.flex{
+  height: 2vw;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flexbox{
+  height: 2vw;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flexbox1{
+  height: 2vw;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flexbox2{
+  height: 2vw;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.flexbox3{
+  height: 2vw;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+
+.A-2{
+  font-size: 200px;
+  font-weight: 200;
+  color: black;
+  font-family:sans-serif;
+  /* width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: black; */
+  animation: sun 18s infinite linear alternate;
+}
+.A-3{
+  font-size: 200px;
+  font-weight: lighter;
+  color: black;
+  font-family:sans-serif;
+  animation: sun 22s infinite linear alternate;
+}
+.A-4{
+  font-size: 200px;
+  font-weight: 200;
+  color: black;
+  font-family:sans-serif;
+  animation: sun 26s infinite linear alternate;
+}
+.A-1{
+  font-size: 200px;
+  font-weight: 200;
+  color: black;
+  font-family:sans-serif;
+  animation: sun 14s infinite linear alternate, colr 7s infinite alternate;
+}
+.A-5{
+  font-size: 200px;
+  font-weight: 200;
+  color: black;
+  font-family:sans-serif;
+  animation: sun 30s infinite linear alternate;
+}
+.A-6{
+  font-size: 200px;
+  font-weight: 200;
+  color: black;
+  font-family:sans-serif;
+  animation: sun 34s infinite linear alternate;
+}
+.A-7{
+  font-size:200px;
+  font-weight: 200;
+  color: black;
+  font-family:sans-serif;
+  animation: sun 38s infinite linear alternate;
+}
+
+
+@keyframes sun {
+  0%{
+    transform: translateY(10vw) scaleY(0);
+
+  }
+  50%{
+    transform: translateY(10vw) scaleY(100%);
+  }
+  100%{
+    transform: translateY(10vw) scaleY(0);
+  }
+}
+@keyframes col {
+    0% {
+      background-color:rgb(153, 47, 142);
+    }
+    25% {
+        background-color:rgb(153, 47, 142);
+    }
+    50% {
+        background-color:rgb(22, 83, 189);
+    }
+    75% {
+        background-color:rgb(227, 216, 65);
+    }
+    100% {
+        background-color:rgb(35, 201, 31);
+    }
+}
+}

@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(223, 224, 214);
+}
+h1{
+  font-family: cursive;
+  color: red;
+}
+.images{
+  display: flex;
+}
+.first, .second, .third, .fourth, .fifth{
+  opacity: 0%;
+  max-width: 400px;
+  position: absolute;
+}
+
+@media only screen and (max-width: 1200px){
+  .first{
+    opacity: 100%;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .first{
+    opacity: 0%;
+  }
+  .second{
+    opacity: 100%;
+  }
+}
+@media only screen and (max-width: 800px){
+  .first, .second{
+    opacity: 0%;
+  }
+  .third{
+    opacity: 100%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .first, .second, .third{
+    opacity: 0%;
+  }
+  .fourth{
+    opacity: 100%;
+  }
+}
+@media only screen and (max-width: 500px){
+  .first, .second, .third, .fourth{
+    opacity: 0%;
+  }
+  .fifth{
+    opacity: 100%;
+  }
+}

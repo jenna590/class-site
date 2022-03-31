@@ -20,26 +20,26 @@ body{
     transform .5s ;
     border-radius: .5s;
   cursor: help;
-  
+
 }
-/* .special{
+.special{
   color: red;
-} */
-/* p{
+}
+p{
   font-size: 30px;
 }
 img{
   max-width: 200px;
-} */
-/* .hidden{
+}
+.hidden{
   position: absolute;
   bottom: 10px;
   left:10px;
   opacity: 0;
-} */
-/* .special:hover + .hidden {
+}
+.special:hover + .hidden {
   opacity: 1;
-} */
+}
 .object:hover{
   background-color:rgb(205, 205, 205);
   transform: scale(2);
